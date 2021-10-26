@@ -30,7 +30,7 @@ int main(){
 				p->next=ptr;
 			p=ptr;
 		}
-	}while(val!=-1);
+	}while(val!=-1);// createing linkedlist till we -1
 	tail=p;
 	p=head;
 	while(1){
